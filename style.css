@@ -1,0 +1,32 @@
+h1{
+    animation: slidein 10s;
+    color: red;
+}
+body{
+    background-color: black;
+    text-align: center;
+    font-family: fantasy;
+}
+a{
+    color: rgb(41, 40, 40);
+}
+h2{
+    color: red;
+}
+p{
+    background-color: red;
+    color: black;
+}
+
+@keyframes slidein {
+    from {
+        color:red;
+    }
+
+    50%{
+        color: black;
+    }
+    to {
+        color: red;
+    }
+  }
